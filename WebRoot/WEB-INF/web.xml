@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>DriverLogin</servlet-name>
+    <servlet-class>com.lcx.action.DriverLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DriverRegister</servlet-name>
+    <servlet-class>com.lcx.action.DriverRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FuelCalculate</servlet-name>
+    <servlet-class>com.lcx.action.FuelCalculate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DriverInfoUpdate</servlet-name>
+    <servlet-class>com.lcx.action.DriverInfoUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DriverHeadPhotoUpload</servlet-name>
+    <servlet-class>com.lcx.action.DriverHeadPhotoUpload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DriverLogin</servlet-name>
+    <url-pattern>/servlet/DriverLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DriverRegister</servlet-name>
+    <url-pattern>/servlet/DriverRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FuelCalculate</servlet-name>
+    <url-pattern>/servlet/FuelCalculate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DriverInfoUpdate</servlet-name>
+    <url-pattern>/servlet/DriverInfoUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DriverHeadPhotoUpload</servlet-name>
+    <url-pattern>/servlet/DriverHeadPhotoUpload</url-pattern>
+  </servlet-mapping>
+</web-app>
